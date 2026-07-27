@@ -1,0 +1,29 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data & models (large / generated artifacts)
+data/raw_documents/*
+!data/raw_documents/.gitkeep
+data/vector_db/*
+!data/vector_db/.gitkeep
+data/app_metadata.db
+models/*.h5
+models/*.pickle
+!models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/

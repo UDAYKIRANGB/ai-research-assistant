@@ -1,0 +1,106 @@
+text,category
+We introduce a control system for a robotic arm performing precise assembly line tasks.,Robotics
+We present a video action recognition model that combines spatial and temporal convolutional features.,Computer Vision
+This paper proposes a novel gradient boosting algorithm that improves accuracy on tabular classification tasks.,Machine Learning
+We present an AI system capable of transferring learned skills across dissimilar tasks using meta-learning.,Artificial Intelligence
+We propose a monitoring and observability stack for tracking performance metrics of cloud-native systems.,Cloud Computing
+The study compares fine-tuning and prompting strategies for adapting language models to new tasks.,Natural Language Processing
+"We propose a novel AI agent framework that combines planning, memory, and tool use for autonomous task completion.",Artificial Intelligence
+The study compares motion planning algorithms for robotic arms in cluttered workspaces.,Robotics
+We propose a malware classification technique using static and dynamic binary analysis features.,Cyber Security
+An empirical study of penetration testing techniques for identifying security flaws in APIs.,Cyber Security
+We introduce a ransomware detection system based on file system behavior monitoring.,Cyber Security
+This research presents a threat intelligence platform for aggregating and correlating security alerts.,Cyber Security
+The document reviews the history and future trajectory of artificial general intelligence research.,Artificial Intelligence
+This paper introduces an anomaly detection method for identifying defects in manufacturing images.,Computer Vision
+An empirical study of human-robot interaction methods for collaborative manufacturing environments.,Robotics
+The paper evaluates sensor fusion techniques combining LiDAR and camera data for robot perception.,Robotics
+An empirical study of tokenization strategies and their effect on language model performance.,Natural Language Processing
+This paper introduces a coreference resolution model for improving document-level text understanding.,Natural Language Processing
+An analysis of vision transformers and their performance on large-scale image classification benchmarks.,Computer Vision
+This paper introduces a convolutional neural network architecture for real-time object detection in video streams.,Computer Vision
+This research presents a drone navigation system capable of obstacle avoidance in cluttered spaces.,Robotics
+This paper presents a path planning algorithm for autonomous mobile robots navigating dynamic environments.,Robotics
+We present a robot task-planning framework that decomposes high-level goals into executable actions.,Robotics
+This paper presents a novel approach to handling imbalanced datasets in binary classification problems.,Machine Learning
+An overview of natural language inference techniques for determining entailment between sentence pairs.,Natural Language Processing
+This work discusses knowledge representation and reasoning techniques used in modern hybrid AI systems.,Artificial Intelligence
+The paper evaluates feature selection methods for improving machine learning model performance on high-dimensional data.,Machine Learning
+An analysis of reinforcement learning techniques for training legged robots to walk on uneven terrain.,Robotics
+The study presents a face recognition system robust to variations in lighting and pose.,Computer Vision
+We propose a multi-factor authentication scheme resistant to phishing and credential stuffing attacks.,Cyber Security
+An empirical study of image super-resolution techniques using deep convolutional networks.,Computer Vision
+An overview of image captioning models that combine convolutional and recurrent neural networks.,Computer Vision
+An analysis of vulnerability assessment methodologies for enterprise web applications.,Cyber Security
+An empirical study of infrastructure-as-code tools for automating cloud resource provisioning.,Cloud Computing
+We introduce a text classification model for detecting spam and phishing emails.,Natural Language Processing
+The study introduces a simultaneous localization and mapping (SLAM) system for indoor robot navigation.,Robotics
+This paper introduces a transformer-based model for abstractive text summarization of long documents.,Natural Language Processing
+This work explores machine translation techniques for low-resource language pairs.,Natural Language Processing
+The study presents a sentiment analysis model trained on multilingual customer review datasets.,Natural Language Processing
+"The study compares public cloud providers on compute performance, pricing, and service reliability.",Cloud Computing
+"A survey of word embedding techniques including word2vec, GloVe, and contextual embeddings.",Natural Language Processing
+An overview of common attack vectors targeting Internet of Things (IoT) devices and mitigation strategies.,Cyber Security
+This paper introduces a cognitive architecture inspired by human memory systems for building adaptive AI agents.,Artificial Intelligence
+The paper evaluates depth estimation algorithms for autonomous vehicle perception systems.,Computer Vision
+This research introduces a transfer learning approach for adapting pretrained models to new classification tasks.,Machine Learning
+We propose a lightweight CNN architecture optimized for image classification on edge devices.,Computer Vision
+A survey of semantic segmentation approaches used in autonomous driving perception pipelines.,Computer Vision
+"An analysis of ensemble learning methods, including random forests and stacking, for regression problems.",Machine Learning
+This work explores zero-trust security architectures for protecting distributed cloud infrastructure.,Cyber Security
+We introduce a multi-agent AI framework where cooperative agents negotiate to solve complex resource allocation problems.,Artificial Intelligence
+We study the effects of data augmentation on the generalization performance of machine learning classifiers.,Machine Learning
+"A benchmark suite for evaluating general reasoning, planning, and problem-solving abilities of AI systems.",Artificial Intelligence
+This work explores optical character recognition techniques for extracting text from scanned documents.,Computer Vision
+A survey of security best practices for protecting containerized microservices in production.,Cyber Security
+We propose a named entity recognition system for extracting structured information from legal contracts.,Natural Language Processing
+The study investigates emergent capabilities in large-scale AI systems trained with reinforcement learning from human feedback.,Artificial Intelligence
+The paper evaluates retrieval-augmented generation techniques for grounding language model responses.,Natural Language Processing
+We present a comparative study of supervised learning algorithms for predicting customer churn.,Machine Learning
+This research presents a pose estimation framework for tracking human movement in video footage.,Computer Vision
+We propose a robotic manipulation framework for grasping objects of varying shapes and sizes.,Robotics
+An overview of edge computing architectures that extend cloud capabilities closer to end users.,Cloud Computing
+"An empirical evaluation of hyperparameter tuning strategies including grid search, random search, and Bayesian optimization.",Machine Learning
+The paper surveys recent advances in AI alignment techniques for ensuring safe and controllable intelligent systems.,Artificial Intelligence
+An analysis of large language model performance on question answering benchmarks.,Natural Language Processing
+We present a fuzzing framework for discovering memory corruption vulnerabilities in native applications.,Cyber Security
+We introduce a load balancing algorithm for distributing traffic across geographically distributed data centers.,Cloud Computing
+A survey of robotic grasping strategies for handling deformable objects in warehouse automation.,Robotics
+"The paper evaluates cloud storage systems for durability, availability, and latency in distributed applications.",Cloud Computing
+This work explores semi-supervised learning techniques for training models with limited labelled data.,Machine Learning
+An overview of underwater robotics systems designed for ocean exploration and data collection.,Robotics
+The study compares object tracking algorithms for surveillance camera applications.,Computer Vision
+This paper presents an auto-scaling strategy for optimizing resource allocation in cloud-native applications.,Cloud Computing
+We propose a new loss function that improves convergence speed for gradient descent based optimizers.,Machine Learning
+This paper explores general artificial intelligence architectures capable of reasoning across multiple domains.,Artificial Intelligence
+A survey of cloud security frameworks for protecting workloads running on shared infrastructure.,Cloud Computing
+We propose a serverless architecture for processing large-scale data pipelines on public cloud platforms.,Cloud Computing
+We present a text simplification system that rewrites complex sentences for accessibility.,Natural Language Processing
+This research presents a disaster recovery strategy for ensuring high availability of cloud-hosted services.,Cloud Computing
+This research presents a dialogue system capable of maintaining multi-turn conversational context.,Natural Language Processing
+"An analysis of container orchestration platforms, including Kubernetes, for deploying microservices at scale.",Cloud Computing
+A survey of unsupervised clustering algorithms and their applications in customer segmentation.,Machine Learning
+This paper introduces a soft robotics design for safe physical interaction with humans.,Robotics
+"The study compares access control models, including RBAC and ABAC, for enterprise identity management.",Cyber Security
+The study introduces a phishing detection model that analyzes email content and URL structure.,Cyber Security
+This work explores swarm robotics coordination strategies for multi-robot search and rescue missions.,Robotics
+An overview of cross-validation techniques used to estimate the generalization error of machine learning models.,Machine Learning
+We introduce an interpretable machine learning model based on decision trees with pruning strategies.,Machine Learning
+The study introduces a cost optimization framework for managing multi-cloud infrastructure spending.,Cloud Computing
+We present a cloud cost forecasting model based on historical resource utilization patterns.,Cloud Computing
+This research examines the ethical implications of deploying autonomous AI decision-making systems in critical infrastructure.,Artificial Intelligence
+We propose a topic modeling approach for organizing large collections of research abstracts.,Natural Language Processing
+This paper presents an intrusion detection system based on anomaly detection in network traffic.,Cyber Security
+An empirical study on the interpretability and explainability of black-box AI decision systems.,Artificial Intelligence
+We propose a bipedal robot locomotion controller trained using deep reinforcement learning.,Robotics
+This paper introduces a security information and event management (SIEM) pipeline for real-time monitoring.,Cyber Security
+We evaluate the trustworthiness of AI systems deployed in high-stakes domains such as healthcare and finance.,Artificial Intelligence
+This paper introduces a CI/CD pipeline design for deploying containerized applications to cloud environments.,Cloud Computing
+The study introduces a regularization technique that reduces overfitting in deep neural network training.,Machine Learning
+The study compares support vector machines and neural networks for time-series forecasting tasks.,Machine Learning
+We propose a novel image segmentation technique for identifying tumors in medical CT scans.,Computer Vision
+We introduce a generative adversarial network for synthesizing photorealistic images from sketches.,Computer Vision
+This work explores hybrid cloud architectures that combine on-premise and public cloud resources.,Cloud Computing
+An overview of symbolic and sub-symbolic approaches to building general-purpose artificial intelligence systems.,Artificial Intelligence
+A comprehensive review of AI planning algorithms used for long-horizon autonomous task execution.,Artificial Intelligence
+The paper evaluates encryption schemes for securing data in transit across untrusted networks.,Cyber Security

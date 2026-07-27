@@ -1,0 +1,145 @@
+{
+  "info": {
+    "name": "AI Research & Knowledge Assistant",
+    "description": "REST API collection for the AI Research & Knowledge Assistant (RAG backend). Set the `base_url` collection variable to your running server (default http://localhost:8000).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:8000" },
+    { "key": "doc_id", "value": "" },
+    { "key": "doc_id_2", "value": "" },
+    { "key": "session_id", "value": "demo-session-1" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "Root",
+          "request": { "method": "GET", "url": "{{base_url}}/" }
+        },
+        {
+          "name": "Health Check",
+          "request": { "method": "GET", "url": "{{base_url}}/health" }
+        }
+      ]
+    },
+    {
+      "name": "Document Management",
+      "item": [
+        {
+          "name": "Upload Document",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/documents/upload",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                { "key": "file", "type": "file", "src": "" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "List Documents",
+          "request": { "method": "GET", "url": "{{base_url}}/documents" }
+        },
+        {
+          "name": "Get Document",
+          "request": { "method": "GET", "url": "{{base_url}}/documents/{{doc_id}}" }
+        },
+        {
+          "name": "Delete Document",
+          "request": { "method": "DELETE", "url": "{{base_url}}/documents/{{doc_id}}" }
+        },
+        {
+          "name": "Reprocess Document",
+          "request": { "method": "POST", "url": "{{base_url}}/documents/{{doc_id}}/reprocess" }
+        }
+      ]
+    },
+    {
+      "name": "Search & Q&A",
+      "item": [
+        {
+          "name": "Search (hybrid)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/search",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"How does the chunking strategy work?\",\n  \"top_k\": 4,\n  \"mode\": \"hybrid\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Ask (RAG Q&A)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/ask",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"question\": \"What is this document about?\",\n  \"session_id\": \"{{session_id}}\",\n  \"mode\": \"hybrid\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Ask Follow-up (pronoun resolution)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/ask",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"question\": \"What are its limitations?\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Analysis",
+      "item": [
+        {
+          "name": "Summarize Document",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/summarize",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"doc_id\": \"{{doc_id}}\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Compare Documents",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/compare",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"doc_ids\": [\"{{doc_id}}\", \"{{doc_id_2}}\"]\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Classification",
+          "request": { "method": "GET", "url": "{{base_url}}/classify/{{doc_id}}" }
+        }
+      ]
+    },
+    {
+      "name": "Analytics",
+      "item": [
+        {
+          "name": "System Analytics",
+          "request": { "method": "GET", "url": "{{base_url}}/analytics" }
+        }
+      ]
+    }
+  ]
+}
