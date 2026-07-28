@@ -34,6 +34,22 @@ class OpenAILLM(LLMProvider):
         )
         return response.choices[0].message.content.strip()
 
+class GroqLLM(LLMProvider):
+    def __init__(self):
+        from openai import OpenAI
+        self.client = OpenAI(
+            api_key=settings.groq_api_key,
+            base_url="https://api.groq.com/openai/v1",
+        )
+        self.model = settings.groq_model
+
+    def complete(self, prompt: str, temperature: float = 0.0) -> str:
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature,
+        )
+        return response.choices[0].message.content.strip()
 
 class OllamaLLM(LLMProvider):
     def __init__(self):
@@ -82,6 +98,8 @@ def get_llm() -> LLMProvider:
             return OpenAILLM()
         if provider == "ollama":
             return OllamaLLM()
+        if provider == "groq" and settings.groq_api_key:
+            return GroqLLM()
     except Exception as exc:  # pragma: no cover - defensive
         logger.error("Failed to initialize LLM provider '%s': %s", provider, exc)
     return ExtractiveFallbackLLM()

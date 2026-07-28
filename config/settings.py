@@ -14,6 +14,8 @@ class Settings(BaseSettings):
     llm_provider: str = "openai"          # "openai" | "ollama"
     openai_api_key: str = ""
     openai_model: str = "gpt-4o-mini"
+    groq_api_key: str = ""
+    groq_model: str = "llama-3.1-8b-instant"
     ollama_base_url: str = "http://localhost:11434"
     ollama_model: str = "llama3"
 
