@@ -1,5 +1,8 @@
 # AI Research & Knowledge Assistant
 
+🔗 **Live Demo**: [https://ai-research-assistant-33n6.onrender.com/docs](https://ai-research-assistant-33n6.onrender.com/docs)
+*(Free-tier hosting — the service may take 30-60 seconds to wake up if idle, and uploaded documents don't persist across restarts.)*
+
 A production-oriented, Retrieval-Augmented Generation (RAG) backend for uploading, semantically searching, summarizing, comparing, and classifying research/technical PDF documents — built with FastAPI, ChromaDB, and TensorFlow.
 
 ---
